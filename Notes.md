@@ -34,6 +34,22 @@ So the next term to be added decreases faster than the infinity of added terms? 
 
 # 313
 
+Does an open set have to be continuious? Define continuoius in this circumstance? We can continuiously go between integers, even though they are discrete???
+
+### Definition of a topological space
+The empty set and X itself belong to τ.
+Any (finite or infinite) union of members of τ still belongs to τ.
+The intersection of any finite number of members of τ still belongs to τ.
+
+The definition of a topological space reminds me of a group?!?
+The set X, under the operation Union, is ... must be a closure in X. Associative, commutative, ... inverse = ??,  Identity = {}.
+
+$\mathcal{T} = \{A \subseteq X \mid A=\varnothing \mbox{ or } X \setminus A \mbox{ is finite} \}$
+
+A is open if (R - A) is finite.(Cofinite) Doesnt make any sense to me? 
+As if A = (0,1) then (R-A) = [-\infty,0],[1,\infty] ???
+
+### Neighourhood
 
 # CS231n
 
