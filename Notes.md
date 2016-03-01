@@ -13,9 +13,6 @@ $
 
 this doesnt quite make sense to me, shouldn't it be a stronger condition? I thought that $[x] \cap [y] \ne \emptyset  =  [x] = [y]$ ???
 
-$
-a \in R, b \in R
-
 If $[a] = \{ x \in X \mid a \sim x \} = [x_i]$ ??
 If $ [x_{1},x_{55},x_{102}] = \{ x \in X \mid a \sim x \}$ is it possible for $ \{ x \in X \mid b \sim x \} = [x_{55}]$ or must it be the full equivalence class as $a == b$?
 
