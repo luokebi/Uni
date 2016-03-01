@@ -26,7 +26,11 @@ Assume $a \ne b$.
 Set $\epsilon = \frac{\| a - b\|}{2}$  <- what??? why, how?
 ... some algebra
 
+#### Geometric series
 
+$ 1 + 1/2 + 1/4 + 1/8 + \dots $ converges to 2. 
+$\sum_{k=0}^\infty ar^k = \frac{a}{1-r} - 0 = \frac{a}{1-r} = \frac{1}{1-\frac{1}{2}} = 2$
+So the next term to be added decreases faster than the infinity of added terms? Weird!!
 
 # 313
 
