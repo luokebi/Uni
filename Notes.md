@@ -51,6 +51,8 @@ As if A = (0,1) then (R-A) = [-\infty,0],[1,\infty] ???
 
 ### Neighourhood
 
+If A is a subset from a topological space T that contains a point p, we can say that p is in the neighbourhood of A.
+
 # CS231n
 
 
