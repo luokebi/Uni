@@ -49,4 +49,7 @@ So the next term to be added decreases faster than the infinity of added terms? 
 
 # UMM
 
-We define a memprocessor as an object defined by the four-tuple(x;y;z;)where x is the state of the memprocessor, y is the array of internal variables,z the array of variables that connect from one memprocessor to other memprocessors, and  an operator that defines the evolution
+Why define a state and internal variables seperately? 
+* This shit seems important! Very similar to how quantum computers are supposed to work?
+ * Could I implement something like Shors algorithm on one??? That sounds like an interesting project.
+* To - do. Simulate the dynamical equations for a 1, 2/3 memprocessor system.
