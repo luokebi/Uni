@@ -49,6 +49,8 @@ $\mathcal{T} = \{A \subseteq X \mid A=\varnothing \mbox{ or } X \setminus A \mbo
 A is open if (R - A) is finite.(Cofinite) Doesnt make any sense to me? 
 As if A = (0,1) then (R-A) = [-\infty,0],[1,\infty] ???
 
+I think they mean something slightly different about closed and open sets. They seem to consider the union of open sets as the open set considered??? Oh, the complement of a closed set IS the union of all other open sets.
+
 ### Neighourhood
 
 If A is a subset from a topological space T that contains a point p, we can say that p is in the neighbourhood of A.
@@ -64,6 +66,10 @@ If A is a subset from a topological space T that contains a point p, we can say 
   * Bandit, you have to explore.
 * Upper connfidence bound (or UC tree) leads to? -> monte carlo tree search
 
+So if the hessian matrix is positive definite then ??? the gradient is positive as it has real roots??
+
+Is $\| x^2 - y^2\|$ a convex function? $ [ \frac{\partial^2 f }{\partial x^2} \frac{\partial^2 f }{\partial x \partial y}; \frac{\partial^2 f }{\partial x \partial y} \frac{\partial^2 f }{\partial y^2} = [2 0 ; 0 -2] $ 
+So it has negaitve eigenvalues and thus ???(why?) is not convex.
 
 # UMM
 
