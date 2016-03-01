@@ -18,6 +18,15 @@ If $ [x_{1},x_{55},x_{102}] = \{ x \in X \mid a \sim x \}$ is it possible for $ 
 
 # 312
 
+### Sequences
+Suppose that a sequence $(x_n)_{n=1}^{\infty} converges to real numbers a and b. Then a = b. Why is this useful? We can caluclate whether two things (equations?) are equal rather than analytically solving them.
+
+Proof. (by what method? by disproving the inverse)
+Assume $a \ne b$.
+Set $\epsilon = \frac{\| a - b\|}{2}$  <- what??? why, how?
+... some algebra
+
+
 
 # 313
 
@@ -32,3 +41,8 @@ If $ [x_{1},x_{55},x_{102}] = \{ x \in X \mid a \sim x \}$ is it possible for $ 
 * Experts = bandit (but with less info?) - partial information (like reinformcement learning)
   * Bandit, you have to explore.
 * Upper connfidence bound (or UC tree) leads to? -> monte carlo tree search
+
+
+# UMM
+
+We define a memprocessor as an object defined by the four-tuple(x;y;z;)where x is the state of the memprocessor, y is the array of internal variables,z the array of variables that connect from one memprocessor to other memprocessors, and  an operator that defines the evolution
