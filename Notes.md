@@ -15,12 +15,18 @@
 # CS231n
 
 Start with:
-* A Conv layer. Test some different window sizes and activation functions?
-* Then multi layer Conv. Depth vs breadth
-* Pooling and competition
-* Normalising - Batch, weight, layer output
-* Optimisation - stochastic gradient descent, momentum, ... ??
-* Overfitting - Weight decay, dropout
+* A Conv layer
+   * Test some different window sizes and activation functions?
+* Multi layer Conv
+   * Depth vs breadth
+* Pooling
+   * ??
+* Normalising
+   * Batches, weights, layer outputs
+* Optimisation
+   * Stochastic gradient descent, momentum, ... ??
+* Overfitting
+   * Weight decay, dropout
 * Initialisation
 
 
