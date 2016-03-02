@@ -63,3 +63,11 @@ Why define a state and internal variables seperately?
 * This shit seems important! Very similar to how quantum computers are supposed to work?
  * Could I implement something like Shors algorithm on one??? That sounds like an interesting project.
 * To - do. Simulate the dynamical equations for a 1, 2/3 memprocessor system.
+* 
+
+Define a memprocessor as
+
+$\sigma[x,y,z] = x', y' \\$ 
+and in neural networks we have a few different types
+* Feedforward $\sigma[x, w \,and\, b] = y $
+* Recurrent $\sigma[x,w \,and\, b, y^{t-1}] = y^t $
