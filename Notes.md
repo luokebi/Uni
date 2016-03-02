@@ -17,6 +17,7 @@
 
 # Prediction and learning
 
+\hat{y} = \sum w x
 
 
 # UMM
