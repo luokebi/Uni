@@ -89,4 +89,15 @@ R(t) = g(R(t),I(t),t) \\
 V = g(R(t),I(t),t) I(t) \\
 \frac{\partial R}{\partial t} = f(R(t),I(t),t)  \\
 $
+and in our language
 $
+y = w \cdot x \\
+w(t) = g(w(t),x(t),t) \\
+y = g(w(t),x(t),t) x(t) \\
+\frac{\partial w}{\partial t} = f(w(t),x(t),t)  \\
+$
+
+cool, this seem right.??
+
+according to them the time evolution of the system
+$$w(t+T) - w(t) = \int_{t}^{t+T} f(w(\tau),x(w(\tau),y(\tau)),\tau) \parital \tau$$
