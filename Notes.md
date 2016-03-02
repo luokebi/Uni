@@ -29,10 +29,12 @@ $
 
 What is $\Psi$?? 
 
-What is the goal?
+### What is the goal?
 
-Accuracy = f(errors made) ???
-No? We want some sort of upper bound on the errors the algorithm will make.
+* Accuracy = f(errors made) ???    ... idiot
+    * No? We want some sort of upper bound on the errors the algorithm will make. (while being accurate??)
+    * Yes but, for WMA and halving we know that they are limited by the best expert so 
+
 
 For backprop, the net can actually get all wrong, as it can choose to listen to the wrong expert. But this doesnt happen as ...
 The goal then is to find the lowest upper bound?
