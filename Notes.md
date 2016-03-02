@@ -19,6 +19,7 @@ Start with:
    * Test some different window sizes and activation functions?
 * Multi layer Conv
    * Depth vs breadth
+* Tensors
 * Pooling
    * ??
 * Normalising
