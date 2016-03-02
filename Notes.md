@@ -93,9 +93,11 @@ and in our language
 $
 y = w \cdot x \\
 w(t) = g(w(t),x(t),t) \\
-y = g(w(t),x(t),t) x(t) \\
+y(t) = g(w(t),x(t),t) x(t) \\
 \frac{\partial w}{\partial t} = f(w(t),x(t),t)  \\
 $
+
+where g() would be the activation function? no. not for time
 
 cool, this seem right.??
 
