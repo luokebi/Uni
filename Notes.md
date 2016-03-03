@@ -30,8 +30,54 @@ Start with:
    * Weight decay, dropout
 * Initialisation
 
-
+zero padding?
 Add softmax and test between each?
+
+```python
+import numpy as np
+class Kernel():
+    def __init__(self,shape):
+        self.weights = np.random.random(shape)
+
+class ConvNet():
+    def __init__(self, layershapes):
+        self.layershapes = layershapes
+
+        self.init_layers()
+
+    def init_layers(self):
+        self.layers = []
+        for shape in self.layershapes:
+            self.layers.append(Kernel(shape))
+
+    def convolve(self, image, stride = 2):
+        #for each layer: #not yet..
+        
+        n,m = image.shape
+        window = self.layershapes[0][-1]
+        
+        for i in range(n+window):
+            for j in range(m):
+                pass
+
+
+if __name__ == '__main__':
+    CN = ConvNet([(10,3,5,5)]) #10 kernels, 3 pixels, 5x5 networks
+    
+
+
+
+"""
+WHat is the best way to store the kernels? A nested list?
+
+[
+[ Kernel1, Kernel2, Kernel3 ...] #first layer
+[ Kernel1, Kernel2, Kernel3 ...] #second layer
+[ Kernel1, Kernel2, Kernel3 ...] #third layer
+]
+"""
+
+```
 
 
 # Prediction and learning
